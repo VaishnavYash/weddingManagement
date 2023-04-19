@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_bg"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".RegisterActivity">
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:gravity="center"
+            android:src="@drawable/couple" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/cherry_cream_soda"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:text="Thank you for letting us share in your special day. We wish you all the happiness in the world"
+            android:textSize="18dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/login_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginVertical="3dp"
+                android:backgroundTint="#FFABAB"
+                android:paddingHorizontal="40dp"
+                android:background = "@drawable/rounded_edit_text"
+                android:textColor="@color/white"
+                android:text="LOGIN" />
+
+            <Button
+                android:id="@+id/nxt_btn"
+                android:layout_marginVertical="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:backgroundTint="#FFABAB"
+                android:background = "@drawable/rounded_edit_text"
+                android:textColor="@color/white"
+                android:paddingHorizontal="25dp"
+                android:text="New User" />
+
+        </LinearLayout>
+
+
+</LinearLayout>

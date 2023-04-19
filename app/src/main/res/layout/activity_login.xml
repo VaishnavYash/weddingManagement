@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_main"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#9E4244"
+        android:gravity="center"
+        android:layout_marginBottom="30dp"
+        app:fontFamily="@font/almendra_sc"
+        android:text="Already have an \naccount?"
+        android:textSize="33dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/boxHeading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email:" />
+        <androidx.appcompat.widget.AppCompatEditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            style="@style/box"
+            android:inputType="textPersonName"/>
+
+        <TextView
+            style="@style/boxHeading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Password:" />
+        <androidx.appcompat.widget.AppCompatEditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            style="@style/box"
+            android:inputType="textPersonName" />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/sbt_btn"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:layout_marginBottom="30dp"
+        android:text="SUBMIT"
+        android:background="@drawable/rounded_edit_text"
+        android:textColor="@color/white"
+        android:backgroundTint="#FC4C4E"
+        />
+    <Button
+        android:id="@+id/newAccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:text="New User? Register Here!"
+        android:textColor="#E11584"
+        android:textStyle="bold" />
+</LinearLayout>
